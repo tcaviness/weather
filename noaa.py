@@ -3,15 +3,14 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 page = requests.get("https://w1.weather.gov/xml/current_obs/KMLU.xml")
-#if page.status_code == page.codes.ok:
-with open("C:\\Users\\TC\\Desktop\\weather\\KMLU.xml", "w") as xml_write:
+
+with open("C:\\Desktop\\weather\\KMLU.xml", "w") as xml_write:
     xml_write.write(page.text)
     xml_write.close()
 page.close()
-#else
- #print("ERROR WITH REQUEST")
+
 	
-with open("C:\\Users\\TC\\Desktop\\weather\\KMLU.xml", "r") as read_xml:
+with open("C:\\Desktop\\weather\\KMLU.xml", "r") as read_xml:
     xmldoc = read_xml.read()
 
 soup = 	BeautifulSoup(xmldoc, 'lxml')
@@ -43,7 +42,7 @@ Sunset: N/A<BR />
 </HTML>"""
 html_file = html.format(location,temp_f,humidity,observation_time,time_string)
  
-with open("C:\\Users\\TC\\Desktop\\weather\\noaa.htm", "w") as htm:
+with open("C:\\Desktop\\weather\\noaa.htm", "w") as htm:
     htm.write(html_file)
     htm.close()
 read_xml.close()

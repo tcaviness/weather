@@ -3,7 +3,7 @@
 
  Weather script that is made for ZaraRadio to pull 
 Weather off NOAA website. It was updated with handling 
-With no internet connection. 
+no internet connection. 
 
 More updates coming...
   Adding a schedule to it. 

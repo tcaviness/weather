@@ -5,7 +5,5 @@
 Weather off NOAA website. It was updated with handling 
 no internet connection. 
 
-More updates coming...
-  Adding a schedule to it. 
-  Adding more locations where Weather can be pulled. 
+**out of date**
   

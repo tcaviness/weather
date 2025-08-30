@@ -1,5 +1,7 @@
 # weather-v2
- Python weather update. 
+ project disconnected 
+
+Python weather update. 
 
  Weather script that is made forto pull 
 Weather data from NOAA website. It was updated with handling 

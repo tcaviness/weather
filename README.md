@@ -1,5 +1,5 @@
 # weather-v2
- project disconnected 
+Project disconnected 
 
 Python weather update. 
 
